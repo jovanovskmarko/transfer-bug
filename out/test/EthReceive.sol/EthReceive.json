@@ -1,0 +1,21 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "test/EthReceive.sol",
+    "id": 174,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "670:0:3",
+    "nodes": [],
+    "license": "UNLICENSED"
+  },
+  "id": 3
+}

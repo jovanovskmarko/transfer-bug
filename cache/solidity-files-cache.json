@@ -555,7 +555,7 @@
         "lib/forge-std/src/StdStorage.sol",
         "lib/forge-std/src/StdUtils.sol",
         "lib/forge-std/src/Vm.sol",
-        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src\\console.sol",
         "lib/forge-std/src/console2.sol"
       ],
       "versionRequirement": ">=0.6.2, <0.9.0",
@@ -828,10 +828,10 @@
         }
       }
     },
-    "src/AgreedPrice.sol": {
-      "lastModificationDate": 1673949407036,
-      "contentHash": "6ec911a0620a43ebb3b05d38adb4c604",
-      "sourceName": "src/AgreedPrice.sol",
+    "src/EthReceive.sol": {
+      "lastModificationDate": 1674821649921,
+      "contentHash": "845383a8918f609ebfef480853f0b902",
+      "sourceName": "src/EthReceive.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -861,21 +861,20 @@
         }
       },
       "imports": [
-        "lib/forge-std/src\\console.sol",
-        "lib/openzeppelin-contracts\\contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "lib/openzeppelin-contracts/contracts/utils/Context.sol"
       ],
-      "versionRequirement": "=0.8.17",
+      "versionRequirement": "^0.8.17",
       "artifacts": {
-        "AgreedPrice": {
-          "0.8.17+commit.8df45f5f.Windows.msvc": "AgreedPrice.sol\\AgreedPrice.json"
+        "EthReceive": {
+          "0.8.17+commit.8df45f5f.Windows.msvc": "EthReceive.sol\\EthReceive.json"
         }
       }
     },
-    "test/AgreedPrice.t.sol": {
-      "lastModificationDate": 1673949531727,
-      "contentHash": "73c527cb115190058568a0c652dfe84c",
-      "sourceName": "test/AgreedPrice.t.sol",
+    "test/EthReceive.t.sol": {
+      "lastModificationDate": 1674821896996,
+      "contentHash": "f0e92be4d7785ce1c13a47a816df0b91",
+      "sourceName": "test/EthReceive.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -919,94 +918,14 @@
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src\\console.sol",
         "lib/forge-std/src/console2.sol",
-        "lib/openzeppelin-contracts\\contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "lib/openzeppelin-contracts/contracts/utils/Context.sol",
-        "src\\AgreedPrice.sol"
+        "src\\EthReceive.sol"
       ],
       "versionRequirement": "^0.8.17",
       "artifacts": {
         "CounterTest": {
-          "0.8.17+commit.8df45f5f.Windows.msvc": "AgreedPrice.t.sol\\CounterTest.json"
-        }
-      }
-    },
-    "test/Counter.t.sol": {
-      "lastModificationDate": 1673948298509,
-      "contentHash": "2222cdf730707b34fde593d864440214",
-      "sourceName": "test/Counter.t.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs",
-            "appendCBOR": true
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ]
-            }
-          },
-          "evmVersion": "london",
-          "libraries": {}
-        }
-      },
-      "imports": [],
-      "versionRequirement": null,
-      "artifacts": {
-        "Counter.t": {
-          "0.8.17+commit.8df45f5f.Windows.msvc": "Counter.t.sol\\Counter.t.json"
-        }
-      }
-    },
-    "test/Excercise.t.sol": {
-      "lastModificationDate": 1673948297142,
-      "contentHash": "5b7f4f0a8e46ee6a2a4c5d25ee9b47bc",
-      "sourceName": "test/Excercise.t.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs",
-            "appendCBOR": true
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ]
-            }
-          },
-          "evmVersion": "london",
-          "libraries": {}
-        }
-      },
-      "imports": [],
-      "versionRequirement": null,
-      "artifacts": {
-        "Excercise.t": {
-          "0.8.17+commit.8df45f5f.Windows.msvc": "Excercise.t.sol\\Excercise.t.json"
+          "0.8.17+commit.8df45f5f.Windows.msvc": "EthReceive.t.sol\\CounterTest.json"
         }
       }
     }
